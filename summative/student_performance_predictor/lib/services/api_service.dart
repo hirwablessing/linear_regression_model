@@ -3,8 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:student_performance_predictor/models/prediction_input.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:8000'; // Replace with your API URL
-
+  static const String baseUrl = 'https://linear-regression-model-tqdc.onrender.com';
   Future<double> predictPerformance(PredictionInput input) async {
     final url = Uri.parse('$baseUrl/predict');
     final headers = {'Content-Type': 'application/json'};
