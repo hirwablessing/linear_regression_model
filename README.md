@@ -3,6 +3,9 @@
 ## Demo Walkthrough
 Video demonstration: https://www.youtube.com/watch?v=oUziXqiYgT0
 
+## Resources
+Dataset: https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+
 ## 📋 **Project Description**
 An intelligent academic forecasting platform that leverages machine learning algorithms to predict student outcomes based on behavioral and academic indicators. This full-stack solution integrates predictive analytics, mobile technology, and cloud APIs to deliver actionable insights for educational stakeholders.
 
@@ -20,8 +23,7 @@ As an aspiring software engineer, I will dedicate myself to learning and masteri
 
 ## 🤖 **Predictive Analytics Framework**
 
-### **Algorithm Implementation:** Multivariate Linear Regression
-- **Training Dataset:** okay noneho this is your link to the dataset: https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+### **Algorithm Implementation:** Random Forest Linear Regression
 - **Output Metric:** Academic Performance Index (0-100 range)
 - **Methodology:** Supervised learning with standardized features
 
