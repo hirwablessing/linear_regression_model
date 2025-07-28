@@ -10,7 +10,7 @@ Dataset: https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
 An intelligent academic forecasting platform that leverages machine learning algorithms to predict student outcomes based on behavioral and academic indicators. This full-stack solution integrates predictive analytics, mobile technology, and cloud APIs to deliver actionable insights for educational stakeholders.
 
 ## 🎯 **My ALU Mission**
-As an aspiring software engineer, I will dedicate myself to learning and mastering the tools and techniques that can drive change and innovation. I plan to engage in projects that empower individuals and communities by providing them with accessible and user-friendly technological solutions. Through consistent collaboration and networking, I aspire to collaborate with like-minded individuals and organizations, amplifying our collective efforts towards a prosperous and self-sufficient Africa.
+As an aspiring software engineer, I will dedicate myself to learning and mastering the tools and techniques that can drive change and innovation. I plan to engage in projects that empower individuals and communities by providing them with accessible and user-friendly technological solutions. Through consistent collaboration and networking, I aspire to collaborate with like-minded individuals and organizations, amplifying our collective efforts towards a prosperous and self-sufficient Africa. This project will help me study the behaviors of young people and know how to build solutions tailored to the African community, and make sure that they will be impactful and useful to them.
 
 
 ## 🔧 **Technical Infrastructure**
@@ -170,3 +170,37 @@ As an aspiring software engineer, I will dedicate myself to learning and masteri
 - Implement ensemble learning techniques for improved accuracy
 - Develop temporal analysis for performance trend identification
 - Create individualized recommendation algorithms
+
+## Running the project
+## Prerequisites:
+*   Flutter SDK installed and configured (check with `flutter doctor`).
+*   An IDE like Android Studio (with Flutter plugin) or VS Code (with Flutter extension) installed.
+*   A connected physical device (with USB Debugging enabled) OR a running Emulator/Simulator.
+
+## Steps:
+
+1.  **Open Project in IDE:**
+    *   **Android Studio/IntelliJ:** File > Open > Navigate to and select the `student_performance_predictor` project folder.
+    *   **VS Code:** File > Open Folder... > Navigate to and select the `student_performance_predictor` project folder.
+
+2.  **Get Dependencies:**
+    *   **IDE Prompt:** If your IDE shows a "Pub get" or "Get dependencies" prompt, click it.
+    *   **Terminal Method:**
+        *   Open a terminal (in your IDE or system terminal).
+        *   Navigate to the root of the `student_performance_predictor` project directory.
+        *   Run: `flutter pub get`
+
+3.  **Select Target Device:**
+    *   In your IDE, locate the device dropdown (usually in the top toolbar in Android Studio, or bottom-right status bar in VS Code).
+    *   Select your connected physical device or a running Android Emulator / iOS Simulator.
+
+4.  **Run the App:**
+    *   **Android Studio/IntelliJ:** Click the green 'Run' (play) button or press `Shift + F10` (Windows/Linux) / `Ctrl + R` (macOS).
+    *   **VS Code:** Press `F5` or go to Run > Start Debugging.
+    *   **Terminal Method (Alternative):**
+        *   In the terminal (already in the project root):
+        *   Run: `flutter run`
+            *(If multiple devices, use `flutter devices` to list them and `flutter run -d <deviceId>` to target a specific one).*
+
+5.  **View:**
+    *   The app will build and launch on your selected device/emulator.
